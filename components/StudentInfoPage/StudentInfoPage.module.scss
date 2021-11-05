@@ -1,0 +1,33 @@
+.main {
+  position: absolute;
+  width: 40%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  button {
+    width: 30%;
+  }
+  * {
+    margin: 10px;
+  }
+}
+.open {
+  display: block;
+}
+.close {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    color: red;
+    margin-top: 0px;
+  }
+}
+.form * {
+  margin: 10px;
+}

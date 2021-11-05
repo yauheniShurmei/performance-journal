@@ -1,0 +1,18 @@
+.table_main {
+  margin: 2.5rem 0;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  tfoot td {
+    text-align: center;
+  }
+}
+
+.table_main * {
+  border: 1px solid black;
+}
+
+.table_main thead tr:nth-of-type(1) th,
+.table_main tfoot tr th {
+  padding: 1rem;
+}

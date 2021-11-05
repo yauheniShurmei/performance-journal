@@ -1,0 +1,29 @@
+.main {
+  text-align: center;
+  a {
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 2px 5px;
+  }
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main form * {
+  margin: 10px;
+}
+
+.input_valid {
+  color: black;
+}
+.input_notValid {
+  color: red;
+}
+.error_message {
+  color: red;
+}
